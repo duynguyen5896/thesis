@@ -163,11 +163,11 @@ tf.app.flags.DEFINE_string(
     'model_speech', 'cnn_speech', 'The name of the architecture to train.')
 
 tf.app.flags.DEFINE_integer(
-<<<<<<< HEAD
+
     'batch_size', 9, 'The number of samples in each batch. It will be the number of samples distributed for all clones.')
-=======
+
     'batch_size', 40, 'The number of samples in each batch. It will be the number of samples distributed for all clones.')
->>>>>>> update epoch and batch size
+
 
 tf.app.flags.DEFINE_integer(
     'num_epochs', 100, 'The number of epochs for training.')
